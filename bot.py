@@ -3,7 +3,7 @@ from telegram import Bot
 from telegram.ext import Updater, CommandHandler
 
 # Lee el token de las variables de entorno
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("Zero_bot")
 bot = Bot(token=BOT_TOKEN)
 
 # Variable global para chat_id
