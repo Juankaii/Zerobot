@@ -13,7 +13,7 @@ def start(update, context):
     global chat_id
     chat_id = update.message.chat_id
     context.bot.send_message(chat_id=chat_id,
-        text="¡Hola! Soy Jkaii_bot, tu asistente de inversiones.")
+        text="¡Hola! Soy Zero_bot, tu asistente de inversiones.")
 
 def check_tokens():
     DEX_URL = "https://api.dexscreener.com/latest/dex/pairs/bsc"
